@@ -12,7 +12,5 @@ echo $species;
 $my_replaced_paragraph= str_replace($species,'ippopotami',$paragraph);
 echo '<br/><br/><br/>';
 echo $my_replaced_paragraph;
-$my_replaced_paragraph .= str_replace($numbers,'trentatre',$paragraph);
 echo '<br/><br/><br/>';
 ?>
-
