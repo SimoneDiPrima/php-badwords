@@ -4,13 +4,12 @@ echo $paragraph;
 echo '<br/><br/><br/>';
 echo strlen($paragraph); 
 echo '<br/><br/><br/>';
-$numbers=  $_GET['numbers'];
-$species = $_GET['name'];
-echo $numbers;
+$species = $_GET["name"];
 echo '<br/><br/><br/>';
 echo $species;
-$my_replaced_paragraph= str_replace($species,'ippopotami',$paragraph);
+$my_replaced_paragraph= str_replace($species,'***',$paragraph);
 echo '<br/><br/><br/>';
-echo $my_replaced_paragraph;
+var_dump($my_replaced_paragraph);
 echo '<br/><br/><br/>';
+echo strlen($my_replaced_paragraph);
 ?>
